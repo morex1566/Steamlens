@@ -11,3 +11,4 @@ Jenkins
 Docker
 Firebase
 Git
+BeautifulSoap
