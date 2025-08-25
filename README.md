@@ -12,3 +12,5 @@ Docker
 Firebase
 Git
 BeautifulSoap
+
+<a href="https://morex1566.github.io/PlayVoX/">https://morex1566.github.io/PlayVoX/</a>
