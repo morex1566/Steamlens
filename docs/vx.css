@@ -1,0 +1,5 @@
+/* 플레이스홀더 텍스트 색상 변경 (선택 사항) */
+#search_button::placeholder {
+    color: #a3a3a3; /* 어두운 회색 */
+    font-style: italic;
+}

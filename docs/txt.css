@@ -1,0 +1,6 @@
+#modal
+{
+    padding-bottom: 24px;
+    font-size: 54px;
+    animation: fade_in 1.5s ease-out forwards, pop_up 0.75s ease-out forwards;
+}
