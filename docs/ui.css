@@ -6,7 +6,9 @@
     border-radius: 20px;
     border: 2px solid #ccc;
     flex-grow: 1; /* .searching 내에서 남은 공간을 채우도록 */
-    /* .searching의 max-width에 따라 input의 최종 너비가 달라지므로 조절 필요 */
+    outline: none;
+
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 #search_button 
@@ -25,12 +27,9 @@
     right: calc(50% - (30% / 2) - 165px);
     top: 50%;
     transform: translateY(-50%);
-    z-index: 10;
+    z-index: 10;   
 
-    /* **아이콘 색상을 어두운 회색으로 변경하는 필터 추가** */
     filter: invert(30%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(110%);
-    /* 이 필터는 흰색 아이콘에 적용했을 때 어두운 회색으로 바꿉니다. */
-    /* 아이콘 원본 색상에 따라 'brightness' 값을 조절하여 원하는 회색을 찾으세요. */
 }
 
 #link_button 
@@ -46,7 +45,7 @@
     border-radius: 40px;
     border: none; /* 테두리 제거 */
     cursor: pointer;
-    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
 
     filter: invert(30%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(60%);
 }
