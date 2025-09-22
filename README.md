@@ -8,4 +8,4 @@ Appium
 JIRA
 Jenkins
 
-<a href="[https://morex1566.github.io/PlayVoX/](https://morex1566.github.io/Steamlens/)">[https://morex1566.github.io/PlayVoX/](https://morex1566.github.io/Steamlens/)</a>
+<a href="https://morex1566.github.io/Steamlens/">https://morex1566.github.io/Steamlens/</a>
