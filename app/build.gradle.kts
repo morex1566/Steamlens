@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -45,4 +47,25 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // JavaSteam core
+    implementation("org.bouncycastle:bcprov-jdk18on:1.81")
+    implementation("com.google.protobuf:protobuf-java:4.31.1")
+    implementation("org.tukaani:xz:1.10")
+    implementation("com.github.luben:zstd-jni:1.5.7-4")
+
+    // JavaSteam network
+    implementation("com.squareup.okhttp3:okhttp:5.1.0")
+    implementation("io.ktor:ktor-client-cio:3.2.2")
+    implementation("io.ktor:ktor-client-core:3.2.2")
+    implementation("io.ktor:ktor-client-websockets:3.2.2")
+
+    // JavaSteam Kotlin coroutine
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+
+    // JavaSteam Utls
+    implementation("org.apache.commons:commons-lang3:3.18.0")
+
+    implementation("in.dragonbra:javasteam:1.7.0")
 }
